@@ -1,0 +1,26 @@
+Comment,Designator,Footprint,LCSC Part Number
+10nF,    C1,Capacitor_SMD:C_0603_1608Metric,C100042
+2.2uF,"    C2, C3",Capacitor_SMD:C_0805_2012Metric,C19110
+220uF,    C4,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D,C8024
+22uF,    C5,Capacitor_SMD:C_1206_3216Metric,C12891
+10uF,    C6,Capacitor_SMD:C_1206_3216Metric,C13585
+100nF,    C7,Capacitor_SMD:C_1206_3216Metric,C24497
+100uF,"    C8, C9",Capacitor_SMD:CP_Elec_8x10,C336212
+B340A,    D1,Diode_SMD:D_SMA,C64982
+SMAJ12CA-TR,    D2,Diode_SMD:D_SMA,C132951
+Yellow,    D3,LED_SMD:LED_0603_1608Metric,C72038
+DC-005-20A,    J1,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002,C136744
+Conn_01x03,    J2,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal",C557655
+Conn_01x04,"    J3, J5",Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical,C161871
+Conn_02x03_Odd_Even,"    J4, J6",Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,C706893
+Conn_01x22,"    J7, J8","Plugin,P=2.54mm",C7499337
+Conn_01x08,"    J9, J10, J11, J12","Plugin,P=2.54mm",C2935979
+22uH,    L1,SMD,C9905
+HSU60P03,    Q1,Package_TO_SOT_SMD:TO-252-2,C845611
+13k,    R1,Resistor_SMD:R_0603_1608Metric,C217729
+4.12k,    R2,Resistor_SMD:R_0603_1608Metric,C861436
+10k,"    R3, R6",Resistor_SMD:R_0603_1608Metric,C25804
+56k,    R4,Resistor_SMD:R_0603_1608Metric, C23206
+18k,    R5,Resistor_SMD:R_0603_1608Metric,C25810
+330R,    R7,Resistor_SMD:R_0603_1608Metric,C23138
+TPS5430DDA,    U1,Package_SO:TI_SO-PowerPAD-8_ThermalVias,C9864
