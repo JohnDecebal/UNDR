@@ -19,7 +19,7 @@ The UNDR AUTO is designed to improve the consistency and quality of espresso sho
 
 ## Bill of Materials
 
-For a detailed list of all required components, please refer to the [Bill of Materials](link-to-bom-file.md).
+For a detailed list of all required components, please refer to the BOM file.
 
 Key components include:
 - NEMA 17 Stepper Motors
@@ -115,8 +115,6 @@ Follow these steps to assemble your UNDR AUTO:
 - The loose fit of the PCB is intentional in the current design. Handle with care when moving the assembled unit.
 - When flashing the code, make sure you have the correct board and port selected in your IDE.
 - If you encounter any issues during the flashing process, double-check your connections and try resetting the ESP32.
-
-For visual guidance, we recommend watching our detailed assembly video available at [UNDR Coffee Build Instructions](https://undr.coffee).
 
 Remember, this is a prototype design and you may encounter challenges during assembly. Don't hesitate to reach out to the community for support or share your improvement ideas!
 
