@@ -164,20 +164,15 @@ Please follow these steps to contribute:
 
 ## License
 
-This project is open source and available under the GNU General Public License v3.0 (GPL-3.0).
-Copyright (c) 2024 John Decebal, UNDR COFFEE
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-You should have received a copy of the GNU General Public License
-along with this program. If not, see https://www.gnu.org/licenses/.
-Note: This license applies to both the software and hardware designs in this project.
-For the full license text, please see the LICENSE file in this repository or visit https://www.gnu.org/licenses/gpl-3.0.en.html.
+Copyright 2024 Ionut Decebal, UNDR COFFEE
+
+This project is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2).
+
+You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This project is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source: https://github.com/JohnDecebal/UNDR
 
 ## Acknowledgments
 
