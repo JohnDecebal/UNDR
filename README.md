@@ -164,7 +164,20 @@ Please follow these steps to contribute:
 
 ## License
 
-(Specify the license under which you're releasing this project, e.g., MIT, GPL, etc.)
+This project is open source and available under the GNU General Public License v3.0 (GPL-3.0).
+Copyright (c) 2024 John Decebal, UNDR COFFEE
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see https://www.gnu.org/licenses/.
+Note: This license applies to both the software and hardware designs in this project.
+For the full license text, please see the LICENSE file in this repository or visit https://www.gnu.org/licenses/gpl-3.0.en.html.
 
 ## Acknowledgments
 
