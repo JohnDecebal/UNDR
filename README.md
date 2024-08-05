@@ -14,7 +14,7 @@ The UNDR AUTO is designed to improve the consistency and quality of espresso sho
 - Adjustable distributor speed up to 1000 RPM
 - 24 available needle slots for customizable distribution patterns
 - Wi-Fi control via a webserver hosted on the onboard ESP32-S3
-- UNDR PCB for advanced control and customization
+- UNDR PCB for reduced size and component quantity
 - Proximity sensor for automatic operation
 
 ## Bill of Materials
@@ -50,25 +50,81 @@ We appreciate your understanding and patience with these issues. Contributions a
 
 ## Assembly Instructions
 
-For detailed assembly instructions, including a step-by-step build video, please visit our website:
+Follow these steps to assemble your UNDR AUTO:
 
-[UNDR Coffee Build Instructions](https://undr.coffee)
+1. **3D Printing:**
+   - Print all required parts listed in the "3D Printed Parts" section of the Bill of Materials.
+   - Ensure prints are clean and free of defects. Sand parts if necessary for proper fit.
 
-The video guide will walk you through the entire assembly process, from 3D printing the components to the final setup of your UNDR AUTO. Please pay special attention to the sections addressing the challenges mentioned above.
+2. **Prepare the Main Body:**
+   - Assemble the four parts of the main body.
+   - Install M4 heated inserts into designated holes on the main body.
+   - Install 2 heated inserts on the lead screw mount.
+   - Glue the grounds shield holder in place on the body at this stage.
 
-Additional Assembly Tips:
-- Have sandpaper on hand to adjust tolerances where needed.
-- Use cable ties or electrical tape to secure loose wires.
-- A set of 90-degree allen wrenches will be invaluable for accessing hard-to-reach fasteners.
-- Take your time and don't force parts together if they don't fit easily.
-- When attaching the portafilter mount to the leadscrew carriage, be patient and prepared to try different approaches to achieve a secure connection.
-- If you're not using a Cafe Racer portafilter, be prepared to modify the portafilter mount design to fit your specific machine.
+3. **Motor and Lead Screw Installation:**
+   - Attach the NEMA 17 stepper motor to the motor mount using M3 screws.
+   - Install the lead screw system, ensuring proper alignment with the motor.
+
+4. **Carriage and Portafilter Mount Assembly:**
+   - Install 4 bearings and the lead screw nut on the carriage using two tapping screws.
+   - Attach the portafilter mount to the leadscrew carriage.
+   - Note: Ensure the connection between the portafilter mount and carriage is secure but loose enough to allow free up and down movement.
+
+5. **Electronics Installation:**
+   - Place the UNDR PCB in the designated space at the bottom of the tool. Note: The PCB doesn't have mounting points yet, so it will rest freely in this space.
+   - Connect the ESP32-S3 to the PCB.
+   - Install the proximity sensor in its designated location.
+
+6. **Wiring:**
+   - Connect stepper motors to the PCB using the provided cables.
+   - Secure all wires neatly, using cable ties or electrical tape as needed.
+
+7. **Distributor Assembly:**
+   - Assemble the distributor, magnetic connector, lid, arm, and cog.
+
+8. **Lid Assembly:**
+   - Assemble the lid separately using its 4 parts.
+   - If desired, install magnets in the provided slots for a satisfying close.
+
+9. **Tray Preparation:**
+   - Glue magnets in place on the tray and corresponding spots on the body. This allows the tray to snap in place and be easily removed for cleaning.
+
+10. **Final Assembly:**
+    - Attach the assembled lid to the main body. Note that it's designed to be easily removable.
+    - Install the bottom lid.
+    - Attach the threaded grounds shield to its glued holder.
+
+11. **Code Flashing:**
+    - Once the tool is fully assembled, connect the ESP32 to your computer using a USB cable.
+    - Download the latest firmware from our GitHub repository.
+    - Use the Arduino IDE or your preferred ESP32 flashing tool to upload the code to the ESP32.
+    - Verify that the upload was successful.
+
+12. **Testing and Calibration:**
+    - Power on the device and connect to its Wi-Fi network.
+    - Access the web interface to test all movements and adjust settings as needed.
+    - Ensure all functions are working correctly after flashing the code.
+
+**Important Assembly Tips:**
+- Use 90-degree allen wrenches for hard-to-reach fasteners.
+- Take your time and don't force parts together.
+- If using a portafilter other than Cafe Racer, modify the mount design accordingly.
+- Refer to the Bill of Materials for specific screw sizes and quantities.
+- When gluing parts (like magnets or the grounds shield holder), ensure proper alignment before the glue sets.
+- The loose fit of the PCB is intentional in the current design. Handle with care when moving the assembled unit.
+- When flashing the code, make sure you have the correct board and port selected in your IDE.
+- If you encounter any issues during the flashing process, double-check your connections and try resetting the ESP32.
+
+For visual guidance, we recommend watching our detailed assembly video available at [UNDR Coffee Build Instructions](https://undr.coffee).
+
+Remember, this is a prototype design and you may encounter challenges during assembly. Don't hesitate to reach out to the community for support or share your improvement ideas!
 
 ## Usage
 
 Once assembled, the UNDR AUTO can be used as follows:
 
-1. Connect to the same Wi-Fi network as your UNDR AUTO.
+1. Connect to the UNDR AUTO network.
 2. Access the web interface by navigating to 192.168.1.100 in your web browser.
 3. Use the web interface to configure your settings:
    - Adjust the portafilter basket depth
@@ -78,20 +134,6 @@ Once assembled, the UNDR AUTO can be used as follows:
 4. Place your filled portafilter on the mount.
 5. The proximity sensor will detect the portafilter and start the distribution process automatically.
 6. Once complete, remove your portafilter and tamp as usual.
-
-(Add any additional steps or tips for optimal use)
-
-## Wi-Fi Control
-
-The UNDR AUTO features a built-in web server hosted on the ESP32-S3, allowing for control via Wi-Fi:
-
-1. Ensure your device (smartphone, tablet, or computer) is connected to the same Wi-Fi network as the UNDR AUTO.
-2. Open a web browser and navigate to 192.168.1.100.
-3. Use the web interface to adjust the following parameters:
-   - Speed: Control the speed of the distribution process
-   - Depth: Set the depth for the portafilter basket
-   - Rotation amount: Determine how much the distributor rotates
-   - Rotation direction: Choose clockwise or counterclockwise rotation
 
 Note: The current version does not support live monitoring or saving distribution profiles. These features may be added in future updates.
 
