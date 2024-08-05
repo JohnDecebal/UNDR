@@ -186,6 +186,6 @@ For the full license text, please see the LICENSE file in this repository or vis
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+John Decebal - undr.coffee - undr.coffee@gmail.com
 
 Project Link: [https://github.com/your_username/undr-auto](https://github.com/your_username/undr-auto)
