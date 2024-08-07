@@ -46,7 +46,7 @@ Key components include:
 
 7. **Potential for Improvements:** As this is an ongoing project, there's significant room for improvement in various aspects of the design and functionality.
 
-We appreciate your understanding and patience with these issues. Contributions and suggestions for improvements are welcome and encouraged.
+I appreciate your understanding and patience with these issues. Contributions and suggestions for improvements are welcome and encouraged.
 
 ## Assembly Instructions
 
@@ -183,4 +183,4 @@ Source: https://github.com/JohnDecebal/UNDR
 
 John Decebal - undr.coffee - undr.coffee@gmail.com
 
-Project Link: [https://github.com/your_username/undr-auto](https://github.com/your_username/undr-auto)
+Project Link: [[https://github.com/JohnDecebal/UNDR](https://github.com/JohnDecebal/UNDR)]
